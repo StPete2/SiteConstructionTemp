@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -16,14 +19,18 @@
             <img width="159" src="./img/Button copy.png" alt="menu, private area and cart icons">
         </div>
     </div>
-    <div class="top_item_with_image_and_logo">
+    <div class="top_item_with_image_and_logo center">
         <div class="left_top_picture">
             <img src="./img/big_picture.png" alt="main picture, man">
         </div>
         <div class="right_hand_side">
-            <img src="./img/element_near_brand.png" alt="straight vertical line">
-            <p>THE BRAND</p>
-            <p>OF LUXERIOUS FASHION</p>
+            <div class="right_hand_side_element">
+                <img width="12" height="92" src="./img/element_near_brand.png" alt="straight vertical line">
+            </div>
+            <div class="right_hand_side_info">
+                <p class="the_brand">THE BRAND</p>
+                <p class="of_luxerious">OF LUXERIOUS <span class="fashion">FASHION</span></p>
+            </div>            
         </div>
     </div>
     <div class="top_examples">
@@ -54,8 +61,10 @@
                     <p class="price">$52.00</p>
                 </div>                
             </div>            
-            <div class="standard_item">
-                <img src="./img/standard2.png" alt="standard item2">
+            <div class="standard_item_second">
+                <div class="second_item">
+                    <img class="second_picture" src="./img/standard2.png" alt="standard item2">
+                </div>
                 <div class="info_item">
                     <h6 class="h6_heading">ELLERY X M'O CAPSULE</h6>
                     <p class="paragraph_item_main">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
@@ -96,7 +105,7 @@
             </div>            
         </div>
         <div class="invitation">
-            <p>Browse All Product</p>
+            <p class="invitation_text">Browse All Product</p>
         </div>
     </div>
 </body>
