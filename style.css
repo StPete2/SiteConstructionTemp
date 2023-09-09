@@ -41,6 +41,39 @@ body {
 
 .right_header_icons {
     color: #E8E8E8;
+    display: flex;
+}
+
+.middle_icon {
+    padding-left: 25px;
+    padding-right: 42px;
+}
+
+.cart_with_a_number {
+    position: relative;
+    display: flex;
+}
+
+.ellipse_and_number {
+    /* position: absolute; */
+    position: absolute;
+    z-index: 1;
+}
+
+.number_inside_ellipse {
+    position: absolute;
+    z-index: 2;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 2;
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    background-color: #F16D7F;
+    
 }
 
 /* 2nd section */
@@ -186,9 +219,35 @@ body {
 .second_item {
     padding-top: 9px;
     padding-bottom: 11px;
-    display: grid;    
+    display: flex;
     background: #F7E4E2;
     justify-items: center;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart_text_and_pic {
+    border: 1px solid #FFF;
+    width: 139px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;    
+    position: absolute;
+    z-index: 1;
+}
+
+.add_to_cart {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .h3_heading {
