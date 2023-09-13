@@ -41,7 +41,9 @@ body {
 
 .right_header_icons {
     color: #E8E8E8;
-    display: flex;
+    display: flex;    
+    align-items: flex-end;
+    padding-top: 7px;
 }
 
 .middle_icon {
@@ -396,3 +398,63 @@ body {
         margin-top: 32px;
     }
 }   
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    
+    .center {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .center2 {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .header {
+        gap: 200px;
+    }   
+
+    .second_icon {
+        display: none;
+    }
+
+    .cart_with_a_number {
+        display: none;
+    }
+
+    .left_top_picture {
+        display: none;
+    }
+
+    .big_item {
+        grid-column: span 1;
+    }
+
+    .item_big_pic {
+        max-width: 343px;
+        max-height: 111px;
+    }
+
+    .top_examples {        
+        grid-template-columns: repeat(1, 344px);
+        gap: 32px;      
+        
+        margin-bottom: 64px;                
+    }   
+
+    .six_standard_items {        
+        grid-template-columns: repeat(1, 360px);        
+        gap: 16px;
+    }
+
+    
+
+    .invitation {
+        margin-top: 41px;
+    }
+
+    .main_info_section {
+        margin-bottom: 85px;
+    }
+}
