@@ -651,6 +651,60 @@ body {
     .invitation {
         margin-top: 32px;
     }
+
+    .main_info_section {
+        margin-bottom: 65px;
+    }
+
+    .delivery_and_discounts {
+        grid-template-columns: repeat(1, 360px);
+        gap: 48px;
+        padding-bottom: 64px;
+    }
+
+    .truck {
+        margin-top: 48px;
+    }
+
+    .discounts {
+        margin-top: 0;
+    }
+
+    .crown {
+        margin-top: 0;
+    }
+
+    .delivery_and_discounts_paragraph {
+        margin-bottom: 0;
+    }
+
+    .subscribe_section {
+        flex-direction: column;
+    }
+
+    .subscribe_section_background {
+        height: 620px;
+        max-width: 1600px;
+    }
+    .quote_part {
+        padding-top: 64px;
+        padding-left: 0px;
+        padding-bottom: 48px;
+    }
+
+    .subscribe {
+        padding-top: 0;
+        padding-right: 0;
+        padding-bottom: 140px;
+    }
+
+    .rights_reserved {
+        padding-left: 32px;
+    }
+    
+    .social_icons {
+        padding-right: 32px;
+    }
 }
 
 @media screen and (max-width: 767px) {
