@@ -55,7 +55,7 @@ body {
     padding-right: 25px;
 }
 
-.middle_icon {    
+.middle_icon {
     padding-right: 42px;
 }
 
@@ -304,12 +304,12 @@ body {
 }
 
 .info_item {
-    
+
     padding-top: 24px;
     padding-right: 24px;
     padding-left: 16px;
     padding-bottom: 24px;
-    background: #F8F8F8;    
+    background: #F8F8F8;
 }
 
 .h6_heading {
@@ -357,7 +357,7 @@ body {
     line-height: normal;
 }
 
-.delivery_and_discounts {    
+.delivery_and_discounts {
     background: #222224;
     display: grid;
     grid-template-columns: repeat(3, 360px);
@@ -395,7 +395,7 @@ body {
     line-height: normal;
 }
 
-.delivery_and_discounts_paragraph {    
+.delivery_and_discounts_paragraph {
     width: 360px;
     height: 34px;
     margin-top: 16px;
@@ -415,7 +415,7 @@ body {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;
 }
 
 .subscribe_section_pic {
@@ -439,7 +439,7 @@ body {
 
 .quote_part_pic {
     width: 96px;
-    height: 96px;    
+    height: 96px;
 }
 
 .quote_paragraph {
@@ -464,7 +464,7 @@ body {
 
 .subscribe {
     width: 557px;
-    height: 142px;    
+    height: 142px;
     padding-top: 150px;
     padding-right: 230px;
     padding-bottom: 156px;
@@ -492,7 +492,8 @@ body {
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 167.2%; /* 40.128px */
+    line-height: 167.2%;
+    /* 40.128px */
 }
 
 .subscribe_h5 {
@@ -534,8 +535,9 @@ body {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;    
+    line-height: normal;
 }
+
 /* .subscribe_section_pic {
     position: absolute;
     z-index: -1;
@@ -548,7 +550,7 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
-    height: 79px;    
+    height: 79px;
 }
 
 .rights_reserved {
@@ -565,7 +567,7 @@ body {
 }
 
 .social_icons {
-    display: flex;    
+    display: flex;
     gap: 7.29px;
     padding-right: 230px;
 }
@@ -683,9 +685,11 @@ body {
     }
 
     .subscribe_section_background {
-        height: 620px;
-        max-width: 1600px;
+        height: 693px;
+        object-fit: cover;
+        transform: translate(440px, 0px);
     }
+
     .quote_part {
         padding-top: 64px;
         padding-left: 0px;
@@ -698,10 +702,15 @@ body {
         padding-bottom: 140px;
     }
 
+    .rights_reserved_section {
+        position: relative;
+        z-index: 5;
+    }
+
     .rights_reserved {
         padding-left: 32px;
     }
-    
+
     .social_icons {
         padding-right: 32px;
     }
@@ -736,10 +745,11 @@ body {
     .header {
         gap: 200px;
     }
-    
+
     .first {
         padding-right: 0;
     }
+
     .second_icon {
         display: none;
     }
@@ -747,11 +757,11 @@ body {
     .cart_with_a_number {
         display: none;
     }
-    
+
     .left_top_picture {
         display: none;
     }
-    
+
     .top_picture {
         display: none;
     }
@@ -766,7 +776,7 @@ body {
         inset: 0;
         width: 100vw;
         height: 363px;
-        display: flex;       
+        display: flex;
         justify-content: center;
         align-items: center;
     }
@@ -819,5 +829,19 @@ body {
 
     .main_info_section {
         margin-bottom: 85px;
+    }
+
+    .delivery_and_discounts {
+        grid-template-columns: repeat(1, 360px);
+    }
+
+    .subscribe_section {
+        flex-wrap: wrap;
+        gap: 59px;
+    }
+
+    .rights_reserved {
+        flex-wrap: wrap;
+        gap: 40px;
     }
 }
