@@ -833,6 +833,41 @@ body {
 
     .delivery_and_discounts {
         grid-template-columns: repeat(1, 360px);
+        gap: 0px;
+    }
+
+    .truck {
+        margin-top: 48px;
+        margin-bottom: 27.12px;
+    }
+
+    .delivery_and_discounts_paragraph {
+        width: 347.82px;
+        height: 32.84968px;
+        margin-top: 14.65px;
+        margin-bottom: 0px;
+    }
+
+    .discounts {
+        margin-top: 46.73px;
+        margin-bottom: 18.42px;
+    }
+
+    .crown {
+        margin-top: 46.83px;
+        margin-bottom: 24.22px;        
+    }
+
+    .delivery_and_discounts_item:last-child {
+        margin-bottom: 81px;
+    }
+
+    .subscribe {
+        padding: 0;
+    }
+
+    .quote_part {
+        padding: 0;
     }
 
     .subscribe_section {
@@ -840,8 +875,24 @@ body {
         gap: 59px;
     }
 
-    .rights_reserved {
-        flex-wrap: wrap;
+    .rights_reserved_section {
+        display: flex;
         gap: 40px;
+        flex-direction: column;
+        height: 143px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social_icons {
+        padding-right: 0;
+        padding-top: 43px;
+    }
+
+    .rights_reserved {
+        order: 1;
+        padding-left: 0;
+        width: 251px;
     }
 }
