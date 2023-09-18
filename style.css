@@ -867,12 +867,57 @@ body {
     }
 
     .quote_part {
-        padding: 0;
+        padding: 64px 0 0 0;
+    }
+
+    .quote_part_pic {
+        width: 91.73333px;
+        height: 91.73333px;
+    }
+
+    .quote_paragraph {
+        width: 343px;
+        height: 73px;
+        font-size: 18px;
     }
 
     .subscribe_section {
-        flex-wrap: wrap;
+        flex-wrap: wrap;        
         gap: 59px;
+        justify-content: center;
+    }    
+
+    .subscribe {
+        padding-bottom: 109.92px;
+        /* width: 340.99765px; */
+        height: 123.08539px;
+        gap: 0;
+    }
+
+    .subscribe_text {
+        width: 271px;
+        height: 54px;
+        padding-bottom: 22.15px;        
+    }
+
+    .subscribe_h4 {
+        line-height: 153.2%; /* 36.768px */
+    }
+
+    .subscribe_h5 {
+        line-height: 153.2%; /* 36.768px */
+        font-size: 14px;        
+    }
+
+    .subscribe_input {
+        width: 224.14px;
+        height: 46.93539px;
+        padding-left: 21.07px;
+    }
+
+    .subscribe_button {
+        width: 95.78765px;
+        height: 46.93539px;
     }
 
     .rights_reserved_section {
