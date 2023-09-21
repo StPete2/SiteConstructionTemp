@@ -51,7 +51,7 @@ body {
     padding-top: 7px;
 }
 
-.first_icon:hover .menu{
+.first_icon:hover .menu_drop{
     visibility: visible; 
 }
 
@@ -60,10 +60,7 @@ body {
 }
 
 .menu {
-    display: none;
-    /* visibility: hidden; */
-    width: 232px;
-    height: 634px;
+    display: inline-grid;    
     background: #FFF;
 }
 
@@ -73,6 +70,9 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    padding-left: 33px;
+    padding-top: 32px;
+    /* padding-bottom: 24px; */
 }
 
 .menu_h5 {
@@ -81,6 +81,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-left: 32px;
 }
 
 .menu_item {
@@ -89,6 +90,15 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-left: 53.5px;
+}
+
+.menu_list {
+    list-style-type: none;
+    gap: 11px;
+    display: flex;    
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 .middle_icon {
@@ -140,6 +150,16 @@ body {
 
 .right-hand-side-relative {
     position: relative;
+}
+
+.menu_drop {
+    width: 232px;
+    height: 634px;
+    background-color: white;    
+    position: absolute;
+    z-index: 3;
+    right: 0;
+    visibility: visible;
 }
 
 .right_hand_side_absolute {
