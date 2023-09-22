@@ -51,10 +51,6 @@ body {
     padding-top: 7px;
 }
 
-.first_icon:hover .menu_drop{
-    visibility: visible; 
-}
-
 .first {
     padding-right: 25px;
 }
@@ -70,9 +66,8 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-left: 33px;
-    padding-top: 32px;
-    /* padding-bottom: 24px; */
+    padding-left: 33px;    
+    padding-bottom: 0; 
 }
 
 .menu_h5 {
@@ -82,6 +77,8 @@ body {
     font-weight: 400;
     line-height: normal;
     padding-left: 32px;
+    padding-top: 20px;
+    padding-bottom: 11px;
 }
 
 .menu_item {
@@ -95,7 +92,7 @@ body {
 
 .menu_list {
     list-style-type: none;
-    gap: 11px;
+    gap: 10px;
     display: flex;    
     flex-direction: column;
     flex-wrap: nowrap;
@@ -152,14 +149,30 @@ body {
     position: relative;
 }
 
+.first_icon {
+    position: relative;    
+}
+
+.first_icon:hover .menu_drop{
+    /* visibility: visible; */
+    display: block;    
+    transition: 0.5s;
+}
+
 .menu_drop {
     width: 232px;
-    height: 634px;
+    height: 570px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     background-color: white;    
     position: absolute;
     z-index: 3;
-    right: 0;
-    visibility: visible;
+    /* right: 0; */
+    /* visibility: hidden; */
+    display: none;
+    box-shadow: -2px 2px 8px 0px rgba(0, 0, 0, 0.2);    
+    right: -338px;
+    bottom: -652px;
 }
 
 .right_hand_side_absolute {
@@ -510,6 +523,10 @@ body {
     position: absolute;
     z-index: 1;
     opacity: 0.25;
+}
+
+.subscribe_section_background {
+    overflow: hidden;
 }
 
 .quote_part {
